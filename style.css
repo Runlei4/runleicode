@@ -1,26 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #2c3e50;
+    background-color: #f4f6f8;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
 }
 
 header {
-    background-color: #005caa;
+    background-color: #0077cc;
     color: white;
-    padding: 20px;
+    padding: 30px 0;
     text-align: center;
 }
 
-nav a {
-    margin: 0 10px;
+header nav a {
+    margin: 0 15px;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-    padding: 40px;
+    padding: 40px 0;
+}
+
+.intro {
+    background-color: #e8f1fa;
+    text-align: center;
+}
+
+.services {
+    background-color: white;
     text-align: center;
 }
 
@@ -31,19 +49,33 @@ section {
 
 .services li {
     margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact {
+    background-color: #e8f1fa;
+    text-align: center;
+}
+
+.contact a {
+    color: #0077cc;
+    text-decoration: none;
 }
 
 .cta {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007acc;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #0077cc;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    font-size: 16px;
+    border-radius: 6px;
 }
 
 footer {
-    background-color: #eee;
+    background-color: #ddd;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
+    font-size: 14px;
 }
